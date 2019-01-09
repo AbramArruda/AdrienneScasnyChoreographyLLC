@@ -14,7 +14,5 @@ class App extends Component {
     );
   }
 }
-//lehhgoooooooooo
 
-//nooo really, lehhh gooo
 export default App;
