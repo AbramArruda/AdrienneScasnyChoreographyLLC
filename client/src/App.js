@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Navbar from "./Components/Navbar";
 import HomePage from "./Pages/HomePage";
 import NotFound from "./Pages/NotFound";
 import AboutMe from "./Pages/AboutMe";
@@ -13,7 +12,6 @@ class App extends Component {
       <div id="contentWrapper">
         <Router>
           <div>
-            <Navbar />
             <Switch>
               <Route
                 exact

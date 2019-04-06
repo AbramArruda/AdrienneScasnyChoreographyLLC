@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import "./Works.css";
+import "./Services.css";
 
-export default class Works extends Component {
+export default class Services extends Component {
   render() {
     return (
       <div class="jumbotron jumbotron-fluid">
