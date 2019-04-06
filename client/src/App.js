@@ -1,15 +1,41 @@
 import React, { Component } from "react";
-import logo from "./logo.jpg";
-import "./App.css";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Navbar from "./Components/Navbar";
+import HomePage from "./Pages/HomePage";
+import NotFound from "./Pages/NotFound";
+import AboutMe from "./Pages/AboutMe";
+import Contact from "./Pages/Contact";
+import Works from "./Pages/Works";
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>Dance Choreographer</p>
-        </header>
+      <div id="contentWrapper">
+        <Router>
+          <div>
+            <Navbar />
+            <Switch>
+              <Route
+                exact
+                path={process.env.PUBLIC_URL + "/"}
+                component={HomePage}
+              />
+              <Route
+                path={process.env.PUBLIC_URL + "/AboutMe"}
+                component={AboutMe}
+              />
+              <Route
+                path={process.env.PUBLIC_URL + "/Contact"}
+                component={Contact}
+              />
+              <Route
+                path={process.env.PUBLIC_URL + "/Works"}
+                component={Works}
+              />
+              <Route component={NotFound} />
+            </Switch>
+          </div>
+        </Router>
       </div>
     );
   }

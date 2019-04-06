@@ -1,0 +1,35 @@
+#linkedInIcon {
+  padding-left: 20px;
+  margin: 10px;
+}
+
+#githubIcon {
+  margin: 15px;
+}
+#linkedInIcon:hover {
+  color: gray;
+}
+
+#githubIcon:hover {
+  color: gray;
+}
+
+#footer {
+  position: fixed;
+  bottom: 25px;
+  left: 10px;
+  width: 100%;
+  background: none;
+  color: white;
+  text-align: left;
+}
+
+@media only screen and (max-width: 700px) {
+  #linkedInIcon {
+    display: none;
+  }
+
+  #githubIcon {
+    display: none;
+  }
+}

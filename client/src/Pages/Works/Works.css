@@ -1,0 +1,22 @@
+.jumbotron {
+  background: none;
+}
+
+#worksTitle {
+  margin-top: 20px;
+  text-align: center;
+  padding-top: 0;
+  padding-bottom: 20px;
+  font-size: 100px;
+}
+
+#worksJumbotron {
+  padding-top: 0;
+}
+
+@media only screen and (max-width: 700px) {
+  #worksTitle {
+    font-size: 40px;
+    margin-top: 10px;
+  }
+}
