@@ -1,0 +1,15 @@
+#homeBackground {
+  background-image: url(../../images/FullSize/Garage.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+}
+
+#homeText {
+  padding-top: 150px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 150px;
+  font-weight: bold;
+  color: black;
+}

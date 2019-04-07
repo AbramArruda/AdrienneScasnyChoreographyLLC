@@ -1,7 +1,5 @@
 .navbar {
   background: transparent;
-  margin-top: 15px;
-  padding-top: 15px;
   margin-bottom: 0;
   padding-bottom: 0;
   margin-left: 15px;
@@ -51,7 +49,7 @@ a {
 #logoLink {
   margin-left: 0px;
 
-  background-color: black;
+  background-color: none;
 }
 
 #navbarWrapper {
